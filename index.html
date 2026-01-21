@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuân Bính Ngọ 2026 - Mã Đáo Thành Công</title>
+    <style>
+        :root {
+            --red-tet: #cc231e;
+            --gold-tet: #ffcc00;
+            --bg-light: #fff5f5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: var(--bg-light);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Hiệu ứng cánh hoa rơi */
+        .petal {
+            position: fixed;
+            top: -10px;
+            z-index: 9999;
+            user-select: none;
+            pointer-events: none;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            border: 5px double var(--gold-tet);
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        /* Banner */
+        .banner {
+            background: linear-gradient(rgba(204, 35, 30, 0.8), rgba(204, 35, 30, 0.8)), 
+                        url('https://images.unsplash.com/photo-1583248352195-d3a8e766ede2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--gold-tet);
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .banner h1 { font-size: 3em; margin: 0; text-shadow: 2px 2px 4px #000; }
+
+        /* Countdown */
+        .countdown-container {
+            background: #b22222;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+        }
+        .time-box { font-size: 1.5rem; font-weight: bold; }
+        .time-box span { display: block; font-size: 0.8rem; font-weight: normal; }
+
+        /* Bố cục Table */
+        .main-table { width: 100%; border-collapse: collapse; }
+        .content-cell { padding: 30px; vertical-align: top; width: 70%; }
+        .sidebar-cell { padding: 30px; vertical-align: top; width: 30%; background: #fffaf0; border-left: 1px solid #eee; }
+
+        h2 { color: var(--red-tet); border-left: 5px solid var(--gold-tet); padding-left: 15px; }
+
+        /* Nút bấm */
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: var(--red-tet);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover { background: var(--gold-tet); color: var(--red-tet); transform: scale(1.05); }
+
+        /* Bảng mâm cỗ */
+        .food-table { width: 100%; margin-top: 20px; border-collapse: collapse; text-align: center; }
+        .food-table th { background: var(--gold-tet); color: var(--red-tet); padding: 10px; }
+        .food-table td { border: 1px solid #ddd; padding: 15px; font-size: 0.9em; }
+
+        /* Form */
+        .form-section { background: #fef5e7; padding: 30px; text-align: center; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+
+        .footer { background: #333; color: white; text-align: center; padding: 20px; }
+        .footer a { color: var(--gold-tet); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="banner" id="top">
+        <h1>CHÚC MỪNG NĂM MỚI 2026</h1>
+        <p>✨ MÃ ĐÁO THÀNH CÔNG - PHÚC LỘC ĐẦY NHÀ ✨</p>
+    </header>
+
+    <div class="countdown-container">
+        <div class="time-box" id="days">00<span>Ngày</span></div>
+        <div class="time-box" id="hours">00<span>Giờ</span></div>
+        <div class="time-box" id="mins">00<span>Phút</span></div>
+        <div class="time-box" id="secs">00<span>Giây</span></div>
+    </div>
+
+    <table class="main-table">
+        <tr>
+            <td class="content-cell">
+                <section>
+                    <h2>🐎 Ý nghĩa năm Bính Ngọ 2026</h2>
+                    <p>Năm 2026 là năm con Ngựa, thuộc mệnh <b>Thiên Hà Thủy</b> (Nước trên trời). Đây là năm của sự bứt phá, năng động và kiên trì. Hình ảnh "Mã đáo thành công" sẽ là nguồn cảm hứng cho tất cả mọi người vượt qua thử thách.</p>
+                </section>
+
+                <section>
+                    <h2>🍱 Ẩm thực Tết 3 Miền</h2>
+                    <table class="food-table">
+                        <tr>
+                            <th>Miền Bắc</th>
+                            <th>Miền Trung</th>
+                            <th>Miền Nam</th>
+                        </tr>
+                        <tr>
+                            <td>Bánh chưng, Dưa hành, Thịt đông</td>
+                            <td>Bánh tét, Thịt ngâm mắm, Tôm chua</td>
+                            <td>Bánh tét, Thịt kho hột vịt, Canh khổ qua</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>🧧 Hoạt động đặc sắc</h2>
+                    <ul>
+                        <li><b>Gói Bánh:</b> Sum vầy bên nồi bánh chưng đêm 30.</li>
+                        <li><b>Xông Đất:</b> Chọn người hợp tuổi mang lại may mắn.</li>
+                        <li><b>Lễ Chùa:</b> Cầu bình an cho gia quyến đầu năm.</li>
+                    </ul>
+                </section>
+            </td>
+
+            <td class="sidebar-cell">
+                <h3>Liên kết nhanh</h3>
+                <a href="#top" class="btn" style="width: 80%;">🏠 Trang chủ</a>
+                <a href="#form-chuc-tet" class="btn" style="width: 80%;">💌 Gửi lời chúc</a>
+                
+                <hr>
+                <h3>Khám phá thêm</h3>
+                <p>Xem phong tục Tết Việt tại:</p>
+                <a href="https://vi.wikipedia.org/wiki/T%E1%BA%BFt_Nguy%C3%AAn_%C4%90%C3%A1n" target="_blank" class="btn" style="background: #28a745; width: 80%;">Wiki Tết Việt</a>
+            </td>
+        </tr>
+    </table>
+
+    <div class="form-section" id="form-chuc-tet">
+        <h2>💌 Gửi Lời Chúc Đầu Xuân</h2>
+        <form style="max-width: 500px; margin: auto;">
+            <input type="text" placeholder="Tên của bạn..." id="sender">
+            <textarea placeholder="Nhập lời chúc tốt đẹp nhất dành cho mọi người..." id="msg"></textarea>
+            <button type="button" class="btn" onclick="alert('Cảm ơn lời chúc của bạn! Chúc bạn năm 2026 Mã Đáo Thành Công!')">Gửi Lời Chúc</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Xuân Bính Ngọ - Thiết kế bởi Gemini AI</p>
+        <a href="#top">Quay lại đầu trang ↑</a>
+    </footer>
+</div>
+
+<script>
+    // 1. Đồng hồ đếm ngược đến 17/02/2026 (Mùng 1 Tết)
+    const tetDate = new Date("Feb 17, 2026 00:00:00").getTime();
+    setInterval(() => {
+        const now = new Date().getTime();
+        const diff = tetDate - now;
+        document.getElementById('days').innerHTML = Math.floor(diff / (1000 * 60 * 60 * 24)) + "<span>Ngày</span>";
+        document.getElementById('hours').innerHTML = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + "<span>Giờ</span>";
+        document.getElementById('mins').innerHTML = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)) + "<span>Phút</span>";
+        document.getElementById('secs').innerHTML = Math.floor((diff % (1000 * 60)) / 1000) + "<span>Giây</span>";
+    }, 1000);
+
+    // 2. Hiệu ứng hoa đào rơi
+    function createPetal() {
+        const petal = document.createElement('div');
+        petal.className = 'petal';
+        petal.innerHTML = Math.random() > 0.5 ? '🌸' : '🌼';
+        petal.style.left = Math.random() * 100 + 'vw';
+        petal.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        petal.style.fontSize = (Math.random() * 10 + 10) + 'px';
+        document.body.appendChild(petal);
+        setTimeout(() => petal.remove(), 5000);
+    }
+    setInterval(createPetal, 300);
+</script>
+
+</body>
+</html>
